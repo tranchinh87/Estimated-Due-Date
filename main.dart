@@ -31,5 +31,10 @@ void main() {
   print("The number of days that have passed: $countDay Days");
   print("-------------------------------------------------------------------");
   print("The number of weeks and days that have passed: $numberWeeks Weeks and $numberDays Days");
+  print("-------------------------------------------------------------------");
+  
+  DateTime dateTimeFrom = DateTime.parse("2023-12-21"); 
+  final difference = dateTo.difference(dateTimeFrom).inDays;
+  print("Number Days: $difference days");
 }
  
